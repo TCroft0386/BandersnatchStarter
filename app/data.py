@@ -40,7 +40,7 @@ if __name__ == '__main__':
     load_dotenv()
     test = Database('Database')
     test.reset()
-    test.seed(1)
+    test.seed(3000)
     print(test.count())
     print(test.dataframe())
     print(test.html_table())
